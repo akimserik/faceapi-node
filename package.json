@@ -1,0 +1,22 @@
+{
+  "name": "faceapi-node",
+  "version": "1.0.0",
+  "description": "face recognition via node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.8.0",
+    "@tensorflow/tfjs-node": "^3.8.0",
+    "@vladmandic/face-api": "^1.4.1",
+    "canvas": "^2.8.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
